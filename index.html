@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <label for="company-select">Select Bike:</label>
+        <select id="company-select">
+            <option value="">Select a Bike</option>
+            <option value="company1"> CD 70 Bike</option>
+            <option value="company2">CG 125 Bike</option>
+            <option value="company3">Heavy Bike</option>
+        </select>
+        <label for="bike-select">Select Company:</label>
+        <select id="bike-select" disabled>
+            <option value="">Select a bike</option>
+            <input type="text" placeholder="Search">
+        </select>
+    </nav>
+    <main id="bike-cards">
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
